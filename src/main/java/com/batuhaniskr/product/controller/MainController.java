@@ -104,7 +104,7 @@ public class MainController {
     }
 
     @ExceptionHandler(NoHandlerFoundException.class)
-    public String handlerException() {
+    public String handleException() {
         return "error/404";
     }
 }
